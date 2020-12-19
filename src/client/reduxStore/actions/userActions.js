@@ -120,20 +120,3 @@ export const friendOnline = (id, isOnline) => {
     dispatch({ type: ACTIONS.FRIEND_ONLINE, payload: friend });
   }
 }
-
-export const waitlist = (cred) => {
-  return (dispatch) => {
-    axios.post('/api/userData/waitlist', cred, {
-      headers: {
-        "Content-Type": "application/json"
-      }
-    }).then(res => {
-      console.log(res.data);
-      dispatch({ type: ACTIONS.SENT_TO_WAITLIST });
-
-    }).catch(err => {
-      console.error(err);
-    });
-
-  }
-}
