@@ -26,13 +26,6 @@ class Home extends Component {
           <Grid item container spacing={0} justify="flex-start" alignItems="center" xs={6} >
             <img className={classes.homeLogo} src="https://res.cloudinary.com/dflkduc49/image/upload/v1607860148/HolaPeepsLogo_yhgwib.png" />
           </Grid>
-          <Grid item container spacing={0} justify="flex-end" alignItems="center" xs={6} >
-            <Link component={RouterLink} to="/getinvite">
-              <ButtonBase className={classes.homeInviteButton} >
-                <span>Get an invite</span>
-              </ButtonBase>
-            </Link>
-          </Grid>
         </Grid>
 
         <Grid className={classes.homeRoot} container spacing={0} justify="center" alignItems="center">
