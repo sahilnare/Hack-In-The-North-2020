@@ -1,6 +1,6 @@
 Team Pied Piper
 
-Hack in the North Project 2020
+Hack in the North Project 2020 : Talk It Out
 
 ![Dashboard](pictures/talkitout2.png)
 
